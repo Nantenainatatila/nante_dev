@@ -8,7 +8,7 @@ app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 
 @app.route("/")
 def home():
-    return "Bonjour DevOps 🚀 - version 1"
+    return "Bonjour DevOps Nantenaaina"
 
 if __name__ == "__main__":
     app.run(debug=True)
